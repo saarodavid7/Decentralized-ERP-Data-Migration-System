@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.data-mapping]
+path = 'contracts/data-mapping.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.rollback-planning]
 path = 'contracts/rollback-planning.clar'
 clarity_version = 2
